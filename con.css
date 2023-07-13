@@ -1,3 +1,15 @@
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+p{
+    margin:0;
+    font-size: small;
+    color: red;
+}
+
 body{
     font-family:Arial, Helvetica, sans-serif;
     margin:auto;
