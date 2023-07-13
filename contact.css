@@ -3,7 +3,17 @@ body{
     margin:auto;
     overflow-x: hidden;
 }
-
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+p{
+    margin:0;
+    font-size: small;
+    color: red;
+}
 footer{
     background-color: #da460c;
     padding: 20px;
