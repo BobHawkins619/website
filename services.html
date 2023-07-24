@@ -3,31 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Services | Hotel Luxuria</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .services-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            background-color: #fff;
+        }
+        .service-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .service-item img {
+            width: 120px;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <header> 
         <nav>
             <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="services.html">Services</a>
-                    <a href="contact.html">Contact Us</a>
-                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <div style="margin: auto; max-width: 1000px;margin-top: 12px;text-align: centers;">
-    <img src="./pexels-jane.jpg" alt="" style="width:300px">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ducimus similique dolor perspiciatis velit! Repellat quaerat incidunt, obcaecati enim adipisci fugiat laudantium id explicabo fugit. Omnis, qui consectetur laboriosam laborum cumque dicta non? Velit, libero animi. Temporibus, unde numquam! Corrupti, nobis? Vel voluptatum atque omnis minus dignissimos necessitatibus ea velit, corrupti aliquam consectetur doloribus esse, nobis ullam nostrum perferendis tempora amet quod, a ut maxime.</p>
-    <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur facilis iste consequuntur corrupti blanditiis totam dolorem velit numquam laudantium adipisci excepturi quae vel quidem dignissimos saepe enim perferendis placeat quod, in quibusdam non, corporis, molestiae accusamus debitis? Quaerat illo nostrum delectus eaque consequuntur ex ad, odit illum, corporis incidunt ipsum eveniet et. Perferendis quaerat ex non, incidunt provident unde suscipit animi natus tempora. Debitis, maiores.</p>
+    <div class="services-container">
+        <h1>Our Services</h1>
+        <div class="service-item">
+            <img src="https://images.pexels.com/photos/3659683/pexels-photo-3659683.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Service 1">
+            <div>
+                <h2>Spacious and Elegant Rooms</h2>
+                <p>Experience ultimate comfort in our spacious and elegantly designed rooms. Enjoy stunning views and luxurious amenities throughout your stay.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://images.pexels.com/photos/2363807/pexels-photo-2363807.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Service 2">
+            <div>
+                <h2>Delicious Cuisine</h2>
+                <p>Indulge in a culinary journey with our talented chefs. Taste a variety of exquisite dishes from around the world, prepared with the freshest ingredients.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Service 3">
+            <div>
+                <h2>Relaxing Spa and Wellness</h2>
+                <p>Pamper yourself at our rejuvenating spa and wellness center. Recharge your body and mind with a range of therapeutic treatments and massages.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://media.istockphoto.com/id/1193140198/photo/receptionist-and-businesswoman-at-hotel-front-desk.jpg?b=1&s=612x612&w=0&k=20&c=-sNg-jUdBXMtad_SPbefr05ISmOcqTOqmYcqcUhCx74=" alt="Service 4">
+            <div>
+                <h2>24/7 Room Service</h2>
+                <p>Our dedicated staff is available round the clock to cater to your needs. Enjoy prompt and personalized room service for a delightful stay.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://images.pexels.com/photos/3124079/pexels-photo-3124079.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Service 5">
+            <div>
+                <h2>Conference Rooms</h2>
+                <p>Host successful business meetings and events in our well-equipped conference rooms. We provide state-of-the-art facilities for your convenience.</p>
+            </div>
+        </div>
     </div>
-    <<footer>
+    <footer>
         <a href="https://github.com/BobHawkins619" style="display: block; margin-bottom: 12px;" target="_blank">Github</a>
-        Copyright@2023
+        &copy; 2023 Hotel Luxuria. All rights reserved.
     </footer>
 </body>
 </html>

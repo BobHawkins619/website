@@ -28,13 +28,19 @@ h1{
     padding-bottom: 20px;
     font-weight: 700;
 }
-footer{
-    background-color: #da460c;
-    padding: 20px;
-    width: 100%;
-    display: block;
+footer {
+    background-color: #da460c;;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-    color:#ffff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #ffd700;
 }
 
 input{
@@ -72,7 +78,7 @@ input::placeholder{
 }
 
 span, p{
-    color:#da460c;
+    /* color:#da460c; */
     font-size: larger;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -102,32 +108,35 @@ span, p{
     max-width: 1000px;
     margin: auto;
 }
-nav{
-    display: block;
-    text-align: right;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
-nav ul li:last-child{
-    margin-right: 18px;
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #ffd700;
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
     margin:auto;
     overflow-x: hidden;
 }
-header{
+
+header {
     background-color: #da460c;
-    padding: 20px;
-    display: block;
-
-}
-nav ul li a{
-    text-decoration: none;
-    color: #ffff;
-    padding: 10px;
-
-}
-
-nav ul li{
-    list-style-type: none;
-    
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
